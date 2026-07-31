@@ -9,7 +9,14 @@
           "type": "model",
           "model": "selectvowels:item/digi/digi_horns"
         }
-	  }
+	  },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/caitlyn_glasses"
+        }
+      }
 	],
     "fallback": {
       "type": "minecraft:model",
