@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "selectvowels:invisible"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "selectvowels:invisible"
+      }
+    ]
+  }
+}
