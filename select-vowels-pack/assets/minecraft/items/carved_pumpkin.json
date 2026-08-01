@@ -16,6 +16,13 @@
           "type": "model",
           "model": "selectvowels:item/caitlyn/caitlyn_glasses"
         }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/digi/cat_ears"
+        }
       }
 	],
     "fallback": {
