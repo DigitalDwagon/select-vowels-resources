@@ -1,0 +1,33 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/drink_voucher"
+        }
+	  },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/food_voucher"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/raffle_ticket"
+        }
+      }
+	],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/paper"
+    }
+  }
+}

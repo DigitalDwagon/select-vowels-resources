@@ -1,0 +1,68 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/churro"
+        }
+	  },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/corn_dog"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/cotton_candy"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/fried_ice_cream"
+        }
+      },
+      {
+        "threshold": 5,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/fries"
+        }
+      },
+      {
+        "threshold": 6,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/funnel_cake"
+        }
+      },
+      {
+        "threshold": 7,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/popcorn_bucket"
+        }
+      },
+      {
+        "threshold": 8,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/pretzel"
+        }
+      }
+	],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cooked_beef"
+    }
+  }
+}

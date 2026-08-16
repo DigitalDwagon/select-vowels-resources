@@ -1,0 +1,40 @@
+{
+  "model": {
+    "type": "range_dispatch",
+    "property": "custom_model_data",
+    "entries": [
+      {
+        "threshold": 1,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/lemonade"
+        }
+	  },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/slushy"
+        }
+      },
+      {
+        "threshold": 3,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/snow_cone"
+        }
+      },
+      {
+        "threshold": 4,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/soda_cup"
+        }
+      }
+	],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/honey_bottle"
+    }
+  }
+}

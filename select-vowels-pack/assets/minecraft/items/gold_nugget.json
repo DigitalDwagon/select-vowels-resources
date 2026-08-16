@@ -9,7 +9,14 @@
           "type": "model",
           "model": "selectvowels:item/caitlyn/mcc_coin"
         }
-	  }
+	  },
+      {
+        "threshold": 2,
+        "model": {
+          "type": "model",
+          "model": "selectvowels:item/caitlyn/amusement/token"
+        }
+      }
 	],
     "fallback": {
       "type": "minecraft:model",
